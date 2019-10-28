@@ -1,0 +1,17 @@
+{
+  "name": "leetcode-solutions",
+  "version": "1.0.0",
+  "description": "Solutions for leetcode.com",
+  "main": ".",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "a.ozhigin <a.ozhigin@tinkoff.ru> (http://tinkoff.ru)",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
