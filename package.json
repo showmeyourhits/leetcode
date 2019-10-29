@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "author": "a.ozhigin <a.ozhigin@tinkoff.ru> (http://tinkoff.ru)",
   "license": "ISC",
