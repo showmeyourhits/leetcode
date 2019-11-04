@@ -12,6 +12,8 @@
   "author": "a.ozhigin <a.ozhigin@tinkoff.ru> (http://tinkoff.ru)",
   "license": "ISC",
   "dependencies": {
-    "jest": "^24.9.0"
+    "generator-jest-leetcode": "^1.0.0",
+    "jest": "^24.9.0",
+    "yo": "^3.1.0"
   }
 }

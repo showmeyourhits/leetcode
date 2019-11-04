@@ -1,12 +1,12 @@
 {
   "name": "generator-jest-leetcode",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate file and test for leetcode problem",
   "homepage": "",
   "author": {
     "name": "showmeyourhits",
     "email": "smile4tme@gmail.com",
-    "url": ""
+    "url": "https://github.com/showmeyourhits/leetcode"
   },
   "files": [
     "generators"
