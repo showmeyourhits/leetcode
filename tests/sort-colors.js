@@ -1,4 +1,4 @@
-const sortColors = require('../sort-colors');
+const sortColors = require('../problems/sort-colors');
 
 describe('sort-colors', () => {
     const cases = [

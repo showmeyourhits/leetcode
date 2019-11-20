@@ -1,4 +1,4 @@
-const singleNumber = require('../single-number');
+const singleNumber = require('../problems/single-number');
 
 describe('single-number', () => {
     const cases = [

@@ -1,4 +1,4 @@
-const symmetricTree = require('../symmetric-tree');
+const symmetricTree = require('../problems/symmetric-tree');
 
 const tree = {
     val: 1,

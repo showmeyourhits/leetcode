@@ -17,7 +17,7 @@ module.exports = class extends Generator {
   writing() {
     this.fs.copyTpl(
       this.templatePath('case.js'),
-      this.destinationPath(`${this.leetcodeName}.js`),
+      this.destinationPath(`problems/${this.leetcodeName}.js`),
       {
         funcName: camelcase(this.leetcodeName),
         caseName: this.leetcodeName,

@@ -12,6 +12,7 @@ var leastInterval = function(tasks, n) {
         }
         return m;
     }, new Map())
+    return map.get(tasks[0]);
 };
 
 module.exports = leastInterval;

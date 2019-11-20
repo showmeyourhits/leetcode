@@ -1,4 +1,4 @@
-const least = require('../least-interval');
+const least = require('../problems/least-interval');
 
 describe('least-interval', () => {
     const cases = [

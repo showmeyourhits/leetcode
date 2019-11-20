@@ -1,4 +1,4 @@
-const <%= funcName %> = require('../<%= caseName %>');
+const <%= funcName %> = require('../problems/<%= caseName %>');
 
 describe('<%= caseName %>', () => {
     const cases = [
@@ -8,7 +8,7 @@ describe('<%= caseName %>', () => {
         },
     ];
 
-    cases.forEach(({result}) => {
+    cases.forEach(({result, nums}) => {
         it(`${nums} -> ${result}`, () => {
             expect(<%= funcName %>(nums)).toEqual(result)
         })

@@ -1,4 +1,4 @@
-const twoSum = require('../two_sum');
+const twoSum = require('../problems/two_sum');
 
 describe('two_sum', () => {
     const cases = [

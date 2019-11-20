@@ -1,4 +1,4 @@
-const moveZeroes = require('../move-zeroes');
+const moveZeroes = require('../problems/move-zeroes');
 
 describe('move-zeroes', () => {
     const cases = [

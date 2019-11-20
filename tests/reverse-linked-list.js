@@ -1,5 +1,5 @@
-const reverseLinkedList = require('../reverse-linked-list');
-const {createLinkedList} = require('../utils');
+const reverseLinkedList = require('../problems/reverse-linked-list');
+const {createLinkedList} = require('../problems/utils');
 
 describe('reverse-linked-list', () => {
     const cases = [
