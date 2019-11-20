@@ -12,7 +12,7 @@
   "author": "a.ozhigin <a.ozhigin@tinkoff.ru> (http://tinkoff.ru)",
   "license": "ISC",
   "dependencies": {
-    "generator-jest-leetcode": "^1.0.0",
+    "generator-jest-leetcode": "^1.1.0",
     "jest": "^24.9.0",
     "yo": "^3.1.0"
   }

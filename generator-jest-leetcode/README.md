@@ -1,9 +1,17 @@
 # generator-jest-leetcode [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Generate file and test for leetcode problem
 
+## Why?
+
+Leetcode checks are slow. So, for convenience, you can solve problems in yourfavourite IDE.
+
+## Usage
+
+I think the only project, that uses this package is [this one](https://github.com/showmeyourhits/leetcode).
+
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-jest-leetcode using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-jest-leetcode using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).st
 
 ```bash
 npm install -g yo
@@ -15,13 +23,6 @@ Then generate your new project:
 ```bash
 yo jest-leetcode
 ```
-
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
 ## License
 
