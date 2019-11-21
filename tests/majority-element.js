@@ -10,6 +10,10 @@ describe('majority-element', () => {
             nums: [2,2,1,1,2,2],
             result: 2,
         },
+        {
+            nums: [1,2,1,1,2,2,2],
+            result: 2,
+        },
     ];
 
     cases.forEach(({result, nums}) => {
