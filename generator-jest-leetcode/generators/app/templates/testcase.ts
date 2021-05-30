@@ -1,4 +1,4 @@
-import { <%= funcName %>, Param, Result } from '../problems/<%= caseName %>'';
+import { <%= funcName %>, Param, Result } from '../problems/<%= caseName %>';
 
 type CaseParameters = {
     param: Param;
