@@ -1,6 +1,6 @@
 {
   "name": "generator-jest-leetcode",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Generate file and test for leetcode problem",
   "homepage": "",
   "author": {
