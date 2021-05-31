@@ -1,6 +1,6 @@
 export type Param = any;
 export type Result = any;
 
-export function <%= funcName %>(param: Params) {
+export function <%= funcName %>(param: Param) {
 
 };
