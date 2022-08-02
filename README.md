@@ -9,6 +9,8 @@ One day - one+ task.
 ## Adding new test
 
 ```bash
-$ npm i
-$ npx yo jest-generator
+# install deps
+yarn
+# generate test
+yarn generate-test
 ```
