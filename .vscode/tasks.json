@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "generate-test",
+			"problemMatcher": [],
+			"label": "npm: generate-test",
+			"detail": "yo jest-leetcode"
+		}
+	]
+}
