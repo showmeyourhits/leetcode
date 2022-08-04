@@ -8,7 +8,9 @@ export class ListNode {
   }
 }
 
-export function arrToListNode(arr: number[]): ListNode {
+export function arrToListNode(arr: number[]): ListNode | null {
+  if (!arr.length) return null;
+
   const newListNode: ListNode = {
       val: Infinity,
       next: null,
