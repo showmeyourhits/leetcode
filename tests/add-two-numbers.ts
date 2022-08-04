@@ -1,4 +1,5 @@
-import { addTwoNumbers, ListNode } from '../problems/add-two-numbers';
+import { addTwoNumbers } from '../problems/add-two-numbers';
+import { arrToListNode, listNodeToArr } from '../src/listUtils';
 
 type CaseParameters = {
     param: {
@@ -37,35 +38,3 @@ describe('add-two-numbers', () => {
     })
 });
 
-function arrToListNode(arr: number[]): ListNode {
-    const newListNode: ListNode = {
-        val: Infinity,
-        next: null,
-    };
-    let current = newListNode;
-
-    for (let i = 0; i < arr.length; i++) {
-        current.val = arr[i];
-        current.next = i + 1 == arr.length ? null : {
-            val: Infinity,
-            next: null
-        }
-        current = current.next;
-    }
-    return newListNode;
-}
-
-function listNodeToArr(listNode: ListNode | null): number[] {
-    if (!listNode) return [];
-
-    const res: number[] = [];
-
-    while (listNode) {
-        res.push(listNode.val);
-
-        listNode = listNode.next;
-    }
-
-
-    return res;
-}
