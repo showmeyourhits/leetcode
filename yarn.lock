@@ -2357,10 +2357,10 @@ gauge@~1.2.5:
     lodash.padend "^4.1.0"
     lodash.padstart "^4.1.0"
 
-generator-jest-leetcode@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/generator-jest-leetcode/-/generator-jest-leetcode-2.1.2.tgz#b02dc65a664d15354ac84d241ec70fff672b1461"
-  integrity sha512-GONG49gRkEA86plN7LXR1YXSB440lkSzCmHms51WTLES2i7BSsbOWPpbw2SSEGZLyl/CKi7GIvIFtTDwATL1CA==
+generator-jest-leetcode@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/generator-jest-leetcode/-/generator-jest-leetcode-2.1.3.tgz#a153a732c6926cef9789c1a9f26ffdfba7190972"
+  integrity sha512-2ODAwYVY+shNP+A8ueq8RNxKhk2m/JbvALC9eP+nWztaHOIxXnvu9XM59LNnb4rg1D3Nr5VLSueg23iy/GQlbg==
   dependencies:
     camelcase "^5.3.1"
     chalk "^2.1.0"
