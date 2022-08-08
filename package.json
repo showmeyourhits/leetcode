@@ -10,7 +10,7 @@
     "test": "jest --watch",
     "generate-test": "yo jest-leetcode"
   },
-  "author": "a.ozhigin <a.ozhigin@tinkoff.ru> (http://tinkoff.ru)",
+  "author": "alexander ozhigin <realozhigin@gmail.com> (http://t.me/aozhigin)",
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^26.0.23",
